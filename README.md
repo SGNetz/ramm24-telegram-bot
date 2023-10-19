@@ -1,48 +1,59 @@
 ![Banner](https://i.ibb.co/n8g124S/rammstein-2024-tickets-lp-header-d.png)
 
-# 🤖 ramm24-telegram-bot 🎟️
+# 🤖 Ramm24 Telegram Bot 🎟️
 
-The **Ramm24 Ticket Monitoring Bot** is a smart Telegram bot crafted with love to assist aficionados in tracking and getting notified about ticket availability for their favorite events. This bot is coded in Python 🐍 and wields web scraping techniques to keenly monitor ticket availability on the chosen dates and swiftly notify users on Telegram the moment tickets become available.
+The **Ramm24 Telegram Bot** is a specially designed Telegram bot to help Rammstein enthusiasts track and get notified about ticket availability for various concerts and events. Developed using Python 🐍, this bot employs web scraping techniques to monitor ticket availability on specified dates, notifying users on Telegram instantly when tickets become available.
 
 ## 🚀 Features:
 
 ### 1. 🎫 Ticket Monitoring:
-Keeps a vigilant eye on specified event pages for ticket availability and notifies users when tickets are ready for purchase.
+Monitors designated event pages for ticket availability and alerts users when tickets are up for grabs.
 
 ### 2. 🌐 Multi-language Support:
-Fluently communicates in both German and English languages for a broader user accessibility.
+Communicates seamlessly in both German and English languages, catering to a wider user base.
 
 ### 3. 👥 User-friendly Interaction:
-Offers an intuitive interaction flow, enabling users to specify the event date they are eyeing.
+Provides a smooth interaction flow, allowing users to specify the event date they are interested in.
 
 ### 4. 📬 Automated Notifications:
-Delivers Telegram notifications loaded with ticket details and direct purchase links as soon as tickets hit the shelves.
+Sends Telegram notifications with ticket details and purchase links the moment tickets are available.
 
 ### 5. 🔐 Secure Access:
-Incorporates a robust password protection feature to ensure only the authorized personnel can access the bot.
+Features a password protection mechanism to ensure only authorized users can access the bot.
 
 ## 📖 Usage:
 
-Describe the steps on how to use the bot.
+1. Start the bot by sending the `/start` command.
+2. Enter the password when prompted to access the bot.
+3. Choose your preferred language for interaction.
+4. Select the event date you are interested in to start monitoring tickets.
+5. Receive notifications with ticket details and purchase links when tickets are available.
+6. Send `stop` command to stop monitoring tickets.
 
 ## 💼 Dependencies:
 
-List of libraries and tools used.
+- Python 3.7 or higher
+- aiogram
+- selenium
+- BeautifulSoup
 
 ## 🛠️ Installation:
 
-Step by step guide on how to install and set up the bot.
+1. Clone the repository from GitHub.
+2. Install the required dependencies using pip: `pip install -r requirements.txt`
+3. Set up your Telegram Bot token and other configurations in a `config.py` file.
+4. Run the bot: `python ramm24bot.py`
 
 ## 📄 License:
 
-License information.
+MIT License. See `LICENSE` for more information.
 
 ## 🤝 Contributing:
 
-Information on how to contribute to the project.
+Feel free to fork the project, create a feature branch, and send us a pull request.
 
 ## 📧 Contact:
 
-Your contact information.
+For more information or assistance, reach out at [github@sg-netz.org](mailto:github@sg-netz.org).
 
-Feel the pulse of every event with **Ramm24 Ticket Monitoring Bot** and never miss out on the tickets to your favorite events! 🎉
+Dive into the rhythm of Rammstein concerts with the **Ramm24 Telegram Bot** and secure your tickets to witness the spectacle live! 🎉
